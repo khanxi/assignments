@@ -52,6 +52,7 @@ x
 # Для этого создайте словарь, где ключом является фамилия. Значением словаря будет список
 # всех однофамильцев (и мужчин, и женщин).
 
+list_of_names = list_of_man + list_of_woman
 from collections import defaultdict
 result = defaultdict(list)
 for elem in list_of_names:
